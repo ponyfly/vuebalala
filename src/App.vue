@@ -5,16 +5,13 @@
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import './style/reset.styl'
+
+  export default {
+    name: 'app'
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import './style/reset.styl'
-  @import './style/mixin.styl'
-  #app
-    wh(750px, 100%)
-    margin 0 auto
-    position relative
+  #app {width: 750px; margin: 0 auto;min-height:100%; font-size: 0; background-color: #000; position: relative}
 </style>

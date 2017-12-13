@@ -1,6 +1,9 @@
 <template>
-  <div id="page1">
-    我是page1
+  <div class="tab_6">
+    <h3 class="recommend_title">推荐视频</h3>
+    <ul class="recommend_list_all clearfix">
+    </ul>
+    <img class="download" src="../images/download2@2x.png" alt="">
   </div>
 </template>
 
@@ -15,11 +18,5 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  #page1
-    position absolute
-    top 0px
-    left 0px
-    wh(100%, 100%)
-    background-color #6fa
-    text-align center
+
 </style>

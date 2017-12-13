@@ -1,27 +1,5 @@
-# vuetemplate
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 页面划分
++ 首页tab_1 tab_2 tab_3 tab_4 line
++ 播放页面tab_2 tab_3 tab_1
++ 播放完毕tab_2 tab_3 tab_1 tab_5
++ 退后显示tab_6
