@@ -1,4 +1,4 @@
-export function ARInit() {}
+function ARInit() {}
 ARInit.prototype = {
   constructor: ARInit,
   /**
@@ -165,3 +165,4 @@ ARInit.prototype = {
       document.cookie = name + "=" + cval + ";expires=" + exp.toGMTString();
   }
 }
+export default new ARInit()
